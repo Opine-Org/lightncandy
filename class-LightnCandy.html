@@ -1,0 +1,3354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class LightnCandy</title>
+
+	<script type="text/javascript" src="resources/combined.js?1288419929"></script>
+	<script type="text/javascript" src="elementlist.js?4033175842"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Overview</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-LightnCandy.html" title="Summary of LightnCandy"><span>Package</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+						<li>
+							<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-LightnCandy.html">LightnCandy</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-LCRun3.html">LCRun3</a></li>
+				<li class="active"><a href="class-LightnCandy.html">LightnCandy</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class LightnCandy</h1>
+
+
+	<div class="description">
+	
+<p>LightnCandy static core class.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-LightnCandy.html">LightnCandy</a><br />
+
+				<b>Author:</b>
+				Zordius &lt;<a
+href="mailto:zordius&#64;yahoo-inc.com">zordius&#64;<!---->yahoo-inc.com</a>&gt;<br />
+		<b>Located at</b> <a href="source-class-LightnCandy.html#21-1830" title="Go to source code">lightncandy.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="compile" id="_compile">
+
+			<td class="attributes"><code>
+				 public static
+				string|false
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compile">#</a>
+			<code><a href="source-class-LightnCandy.html#92-129" title="Go to source code">compile</a>( <span>string <var>$template</var></span>, <span>array&lt;string,array|string|integer&gt; <var>$options</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'flags'</span> =&gt; self::FLAG_BESTPERFORMANCE)</span> )</code>
+
+			<div class="description short">
+				
+<p>Compile handlebars template into PHP code.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Compile handlebars template into PHP code.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$template</var></dt>
+						<dd><code>string</code><br>$template handlebars template string</dd>
+						<dt><var>$options</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$options LightnCandy compile time and run time options, default is array('flags'
+=&gt; LightnCandy::FLAG_BESTPERFORMANCE)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string|false</code><br>Compiled PHP code when successed. If error happened and compile failed, return
+false.<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="escapeTemplate" id="_escapeTemplate">
+
+			<td class="attributes"><code>
+				 protected static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_escapeTemplate">#</a>
+			<code><a href="source-class-LightnCandy.html#142-144" title="Go to source code">escapeTemplate</a>( <span>mixed <var>$template</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setupToken" id="_setupToken">
+
+			<td class="attributes"><code>
+				 protected static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setupToken">#</a>
+			<code><a href="source-class-LightnCandy.html#146-172" title="Go to source code">setupToken</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>string <var>$left</var> = <span class="php-quote">'{{'</span></span>, <span>string <var>$right</var> = <span class="php-quote">'}}'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Setup token delimiter by default or provided string</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Setup token delimiter by default or provided string</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context</dd>
+						<dt><var>$left</var></dt>
+						<dd><code>string</code><br>$left left string of a token</dd>
+						<dt><var>$right</var></dt>
+						<dd><code>string</code><br>$right right string of a token</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="verifyTemplate" id="_verifyTemplate">
+
+			<td class="attributes"><code>
+				 protected static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_verifyTemplate">#</a>
+			<code><a href="source-class-LightnCandy.html#174-186" title="Go to source code">verifyTemplate</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>string <var>$template</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Verify template and scan for used features</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Verify template and scan for used features</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context</dd>
+						<dt><var>$template</var></dt>
+						<dd><code>string</code><br>$template handlebars template</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileTemplate" id="_compileTemplate">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileTemplate">#</a>
+			<code><a href="source-class-LightnCandy.html#188-241" title="Go to source code">compileTemplate</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>string <var>$template</var></span>, <span>string <var>$partial</var> = <span class="php-quote">''</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Compile template into PHP code (internal method)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Compile template into PHP code (internal method)</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context</dd>
+						<dt><var>$template</var></dt>
+						<dd><code>string</code><br>$template handlebars template</dd>
+						<dt><var>$partial</var></dt>
+						<dd><code>string</code><br>$partial partial name when $template is come from the template</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>generated PHP code<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="composePHPRender" id="_composePHPRender">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_composePHPRender">#</a>
+			<code><a href="source-class-LightnCandy.html#243-292" title="Go to source code">composePHPRender</a>( <span>array&lt;string,array|string|integer&gt; <var>$context</var></span>, <span>string <var>$code</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Compose LightnCandy render codes for include()</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Compose LightnCandy render codes for include()</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context</dd>
+						<dt><var>$code</var></dt>
+						<dd><code>string</code><br>$code generated PHP code</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>Composed PHP code<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="buildContext" id="_buildContext">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;string,array|string|integer&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_buildContext">#</a>
+			<code><a href="source-class-LightnCandy.html#294-414" title="Go to source code">buildContext</a>( <span>array&lt;string,array|string|integer&gt; <var>$options</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Build context from options</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Build context from options</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$options</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$options input options</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string,array|string|integer&gt;</code><br>Context from options<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="buildHelperTable" id="_buildHelperTable">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;string,array|string|integer&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_buildHelperTable">#</a>
+			<code><a href="source-class-LightnCandy.html#416-448" title="Go to source code">buildHelperTable</a>( <span>array&lt;string,array|string|integer&gt; <var>$context</var></span>, <span>array&lt;string,array|string|integer&gt; <var>$options</var></span>, <span>string <var>$tname</var> = <span class="php-quote">'helpers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Build custom helper table</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Build custom helper table</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context prepared context</dd>
+						<dt><var>$options</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$options input options</dd>
+						<dt><var>$tname</var></dt>
+						<dd><code>string</code><br>$tname helper table name</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string,array|string|integer&gt;</code><br>context with generated helper table<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							array() when input array(), array()<br />
+							array('flags' =&gt; array('exhlp' =&gt; 1)) when input array('flags' =&gt;
+array('exhlp' =&gt; 1)), array('helpers' =&gt; array('abc'))<br />
+							array('error' =&gt; array('Can not find custom helper function defination abc()
+!'), 'flags' =&gt; array('exhlp' =&gt; 0)) when input array('error' =&gt;
+array(), 'flags' =&gt; array('exhlp' =&gt; 0)), array('helpers' =&gt;
+array('abc'))<br />
+							array('flags' =&gt; array('exhlp' =&gt; 1), 'helpers' =&gt; array('LCRun3::raw'
+=&gt; 'LCRun3::raw')) when input array('flags' =&gt; array('exhlp' =&gt; 1),
+'helpers' =&gt; array()), array('helpers' =&gt; array('LCRun3::raw'))<br />
+							array('flags' =&gt; array('exhlp' =&gt; 1), 'helpers' =&gt; array('test' =&gt;
+'LCRun3::raw')) when input array('flags' =&gt; array('exhlp' =&gt; 1), 'helpers'
+=&gt; array()), array('helpers' =&gt; array('test' =&gt; 'LCRun3::raw'))<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="readPartial" id="_readPartial">
+
+			<td class="attributes"><code>
+				 protected static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_readPartial">#</a>
+			<code><a href="source-class-LightnCandy.html#450-472" title="Go to source code">readPartial</a>( <span>string <var>$name</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Read partial file content as string and store in context</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Read partial file content as string and store in context</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name partial name</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context of compiler progress.</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="resolvePartial" id="_resolvePartial">
+
+			<td class="attributes"><code>
+				 protected static
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_resolvePartial">#</a>
+			<code><a href="source-class-LightnCandy.html#474-496" title="Go to source code">resolvePartial</a>( <span>string <var>&amp; $name</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>locate partial file, return the file name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>locate partial file, return the file name</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name partial name</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context of compiler progress.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string|null</code><br>$content partial content<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compilePartial" id="_compilePartial">
+
+			<td class="attributes"><code>
+				 protected static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compilePartial">#</a>
+			<code><a href="source-class-LightnCandy.html#498-529" title="Go to source code">compilePartial</a>( <span>string <var>&amp; $name</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>string <var>$content</var></span> )</code>
+
+			<div class="description short">
+				
+<p>compile partial file, stored in context</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>compile partial file, stored in context</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name partial name</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context of compiler progress.</dd>
+						<dt><var>$content</var></dt>
+						<dd><code>string</code><br>$content partial content</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="buildCXFileext" id="_buildCXFileext">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;string&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_buildCXFileext">#</a>
+			<code><a href="source-class-LightnCandy.html#531-546" title="Go to source code">buildCXFileext</a>( <span>array&lt;string,array|string|integer&gt; <var>$options</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Check options and handle fileext.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Check options and handle fileext.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$options</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$options current compile option</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string&gt;</code><br>file extensions<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							array('.tmpl') when input array()<br />
+							array('test') when input array('fileext' =&gt; 'test')<br />
+							array('test1') when input array('fileext' =&gt; array('test1'))<br />
+							array('test2', 'test3') when input array('fileext' =&gt; array('test2',
+'test3'))<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="buildCXBasedir" id="_buildCXBasedir">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;string&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_buildCXBasedir">#</a>
+			<code><a href="source-class-LightnCandy.html#548-573" title="Go to source code">buildCXBasedir</a>( <span>array&lt;string,array|string|integer&gt; <var>$options</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Check options and handle basedir.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Check options and handle basedir.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$options</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$options current compile option</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string&gt;</code><br>base directories<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							array() when input array()<br />
+							array() when input array('basedir' =&gt; array())<br />
+							array('src') when input array('basedir' =&gt; array('src'))<br />
+							array('src') when input array('basedir' =&gt; array('src', 'dir_not_found'))<br />
+							array('src', 'tests') when input array('basedir' =&gt; array('src', 'tests'))<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getPHPCode" id="_getPHPCode">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getPHPCode">#</a>
+			<code><a href="source-class-LightnCandy.html#575-601" title="Go to source code">getPHPCode</a>( <span>object <var>$closure</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Get PHP code from a closure of function as
+string.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Get PHP code from a closure of function as
+string.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$closure</var></dt>
+						<dd><code>object</code><br>$closure Closure object</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'function($a) {return;}' when input function ($a) {return;}<br />
+							'function($a) {return;}' when input function ($a) {return;}<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="exportHelper" id="_exportHelper">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_exportHelper">#</a>
+			<code><a href="source-class-LightnCandy.html#603-625" title="Go to source code">exportHelper</a>( <span>string <var>$context</var></span>, <span>array&lt;string,array|string|integer&gt; <var>$tname</var> = <span class="php-quote">'helpers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Export required custom helper
+functions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Export required custom helper
+functions.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>string</code><br>$tname helper table name</dd>
+						<dt><var>$tname</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="exportLCRun" id="_exportLCRun">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_exportLCRun">#</a>
+			<code><a href="source-class-LightnCandy.html#627-678" title="Go to source code">exportLCRun</a>( <span>array&lt;string,array|string|integer&gt; <var>$context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Export required standalone functions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Export required standalone functions.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="scanLCRunDependency" id="_scanLCRunDependency">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;string|array&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_scanLCRunDependency">#</a>
+			<code><a href="source-class-LightnCandy.html#680-701" title="Go to source code">scanLCRunDependency</a>( <span>array&lt;string,array|string|integer&gt; <var>$context</var></span>, <span>string <var>$code</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Export required standalone functions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Export required standalone functions.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$code</var></dt>
+						<dd><code>string</code><br>$code PHP code string of the method</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string|array&gt;</code><br>list of converted code and children array<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="handleError" id="_handleError">
+
+			<td class="attributes"><code>
+				 protected static
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_handleError">#</a>
+			<code><a href="source-class-LightnCandy.html#703-733" title="Go to source code">handleError</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Handle exists error and return error
+status.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Handle exists error and return error
+status.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context of compiler progress.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>True when error detected<br />
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+					</div>
+
+					<h4>Expect</h4>
+					<div class="list">
+							true when input array('level' =&gt; 1, 'stack' =&gt; array('X'), 'flags' =&gt;
+array('errorlog' =&gt; 0, 'exception' =&gt; 0), 'error' =&gt; array())<br />
+							false when input array('level' =&gt; 0, 'error' =&gt; array())<br />
+							true when input array('level' =&gt; 0, 'error' =&gt; array('some error'),
+'flags' =&gt; array('errorlog' =&gt; 0, 'exception' =&gt; 0))<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getBoolStr" id="_getBoolStr">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getBoolStr">#</a>
+			<code><a href="source-class-LightnCandy.html#735-749" title="Go to source code">getBoolStr</a>( <span>integer <var>$v</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return 'true' or 'false' string.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return 'true' or 'false' string.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$v</var></dt>
+						<dd><code>integer</code><br>$v value</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>'true' when the value larger then 0<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'true' when input 1<br />
+							'true' when input 999<br />
+							'false' when input 0<br />
+							'false' when input -1<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getContext" id="_getContext">
+
+			<td class="attributes"><code>
+				 public static
+				array&lt;string,array|string|integer&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getContext">#</a>
+			<code><a href="source-class-LightnCandy.html#751-758" title="Go to source code">getContext</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get last compiler context.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get last compiler context.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string,array|string|integer&gt;</code><br>Context data<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="prepare" id="_prepare">
+
+			<td class="attributes"><code>
+				 public static
+				<code><a href="class-Closure.html">Closure</a></code>|false
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_prepare">#</a>
+			<code><a href="source-class-LightnCandy.html#760-791" title="Go to source code">prepare</a>( <span>string <var>$php</var></span>, <span>string|null <var>$tmpDir</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Get a working render function by a string of PHP code. This method may
+requires php setting allow_url_include=1 and allow_url_fopen=1 , or access right
+to tmp file system.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get a working render function by a string of PHP code. This method may
+requires php setting allow_url_include=1 and allow_url_fopen=1 , or access right
+to tmp file system.</p>
+
+
+					<h4>Deprecated</h4>
+					<div class="list">
+					</div>
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$php</var></dt>
+						<dd><code>string</code><br>$php PHP code</dd>
+						<dt><var>$tmpDir</var></dt>
+						<dd><code>string|null</code><br>$tmpDir Optional, change temp directory for php include file saved by prepare()
+when cannot include PHP code with data:// format.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Closure.html">Closure</a></code>|false</code><br>result of include()<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getFuncName" id="_getFuncName">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getFuncName">#</a>
+			<code><a href="source-class-LightnCandy.html#793-819" title="Go to source code">getFuncName</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>string <var>$name</var></span>, <span>string <var>$tag</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Get function name for standalone or none
+standalone template.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Get function name for standalone or none
+standalone template.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current context of compiler progress.</dd>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name base function name</dd>
+						<dt><var>$tag</var></dt>
+						<dd><code>string</code><br>$tag original handlabars tag for debug</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>compiled Function name<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'LCRun3::test(' when input array('flags' =&gt; array('standalone' =&gt; 0,
+'debug' =&gt; 0)), 'test', ''<br />
+							'LCRun3::test2(' when input array('flags' =&gt; array('standalone' =&gt; 0,
+'debug' =&gt; 0)), 'test2', ''<br />
+							"\$cx['funcs']['test3'](" when input array('flags' =&gt; array('standalone'
+=&gt; 1, 'debug' =&gt; 0)), 'test3', ''<br />
+							'LCRun3::debug(\'abc\', \'test\', ' when input array('flags' =&gt;
+array('standalone' =&gt; 0, 'debug' =&gt; 1)), 'test', 'abc'<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getArrayStr" id="_getArrayStr">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getArrayStr">#</a>
+			<code><a href="source-class-LightnCandy.html#821-834" title="Go to source code">getArrayStr</a>( <span>array&lt;string&gt; <var>$scopes</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by getArrayCode(). Get variable names translated
+string.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by getArrayCode(). Get variable names translated
+string.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$scopes</var></dt>
+						<dd><code>array&lt;string&gt;</code><br>$scopes an array of variable names with single quote</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>PHP array names string<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'' when input array()<br />
+							'[a]' when input array('a')<br />
+							'[a][b][c]' when input array('a', 'b', 'c')<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getArrayCode" id="_getArrayCode">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getArrayCode">#</a>
+			<code><a href="source-class-LightnCandy.html#836-851" title="Go to source code">getArrayCode</a>( <span>array&lt;string&gt; <var>$list</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by getVariableName(). Get variable names translated
+string.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by getVariableName(). Get variable names translated
+string.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$list</var></dt>
+						<dd><code>array&lt;string&gt;</code><br>$list an array of variable names.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>PHP array names string<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'' when input array()<br />
+							"['a']" when input array('a')<br />
+							"['a']['b']['c']" when input array('a', 'b', 'c')<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getVariableNames" id="_getVariableNames">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;string|array&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getVariableNames">#</a>
+			<code><a href="source-class-LightnCandy.html#853-883" title="Go to source code">getVariableNames</a>( <span>array&lt;array&gt; <var>$vn</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>boolean <var>$ishelper</var> = <span class="php-keyword1">false</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile().</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile().</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$vn</var></dt>
+						<dd><code>array&lt;array&gt;</code><br>$vn variable name array.</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$ishelper</var></dt>
+						<dd><code>boolean</code><br>$ishelper true when compile for helper</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string|array&gt;</code><br>variable names<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							array('array(array($in),array())', array('this')) when input array(null),
+array('flags'=&gt;array('spvar'=&gt;true))<br />
+							array('array(array($in,$in),array())', array('this', 'this')) when input
+array(null, null), array('flags'=&gt;array('spvar'=&gt;true))<br />
+							array('array(array(),array(\'a\'=&gt;$in))', array('this')) when input array('a'
+=&gt; null), array('flags'=&gt;array('spvar'=&gt;true))<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileSubExpression" id="_compileSubExpression">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;string&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileSubExpression">#</a>
+			<code><a href="source-class-LightnCandy.html#885-910" title="Go to source code">compileSubExpression</a>( <span>string <var>$subExpression</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile().</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile().</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$subExpression</var></dt>
+						<dd><code>string</code><br>$subExpression subExpression to compile</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string&gt;</code><br>code representing passed expression<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getVariableName" id="_getVariableName">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;string&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getVariableName">#</a>
+			<code><a href="source-class-LightnCandy.html#912-1013" title="Go to source code">getVariableName</a>( <span>array&lt;array|string|integer&gt; <var>$var</var></span>, <span>array&lt;array|string|integer&gt; <var>&amp; $context</var></span>, <span>boolean <var>$ishelper</var> = <span class="php-keyword1">false</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile().</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile().</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$var</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$var variable parsed path</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$ishelper</var></dt>
+						<dd><code>boolean</code><br>$ishelper true when compile for helper$</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;string&gt;</code><br>variable names<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							array('$in', 'this') when input array(null),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0))<br />
+							array('true', 'true') when input array('true'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0)), true<br />
+							array('false', 'false') when input array('false'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0)), true<br />
+							array(2, '2') when input array('2'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0)), true<br />
+							array('((isset($in[\'@index\']) &amp;&amp; is_array($in)) ? $in[\'@index\'] :
+null)', '[@index]') when input array('@index'),
+array('flags'=&gt;array('spvar'=&gt;false,'debug'=&gt;0,'prop'=&gt;0,'method'=&gt;0,'mustlok'=&gt;0))<br />
+							array("((isset(\$cx['sp_vars']['index']) &amp;&amp; is_array(\$cx['sp_vars'])) ?
+\$cx['sp_vars']['index'] : null)", '@[index]') when input array('@index'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0))<br />
+							array("((isset(\$cx['sp_vars']['key']) &amp;&amp; is_array(\$cx['sp_vars'])) ?
+\$cx['sp_vars']['key'] : null)", '@[key]') when input array('@key'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0))<br />
+							array("((isset(\$cx['sp_vars']['first']) &amp;&amp; is_array(\$cx['sp_vars'])) ?
+\$cx['sp_vars']['first'] : null)", '@[first]') when input array('@first'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0))<br />
+							array("((isset(\$cx['sp_vars']['last']) &amp;&amp; is_array(\$cx['sp_vars'])) ?
+\$cx['sp_vars']['last'] : null)", '@[last]') when input array('@last'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0))<br />
+							array('\'a\'', '"a"') when input array('"a"'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0))<br />
+							array('((isset($in[\'a\']) &amp;&amp; is_array($in)) ? $in[\'a\'] : null)',
+'[a]') when input array('a'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0,'prop'=&gt;0,'method'=&gt;0,'mustlok'=&gt;0))<br />
+							array('((isset($cx[\'scopes\'][count($cx[\'scopes\'])-1][\'a\']) &amp;&amp;
+is_array($cx[\'scopes\'][count($cx[\'scopes\'])-1])) ?
+$cx[\'scopes\'][count($cx[\'scopes\'])-1][\'a\'] : null)', '../[a]') when input
+array(1,'a'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0,'prop'=&gt;0,'method'=&gt;0,'mustlok'=&gt;0))<br />
+							array('((isset($cx[\'scopes\'][count($cx[\'scopes\'])-3][\'a\']) &amp;&amp;
+is_array($cx[\'scopes\'][count($cx[\'scopes\'])-3])) ?
+$cx[\'scopes\'][count($cx[\'scopes\'])-3][\'a\'] : null)', '../../../[a]') when
+input array(3,'a'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0,'prop'=&gt;0,'method'=&gt;0,'mustlok'=&gt;0))<br />
+							array('((isset($in[\'id\']) &amp;&amp; is_array($in)) ? $in[\'id\'] : null)',
+'this.[id]') when input array(null, 'id'),
+array('flags'=&gt;array('spvar'=&gt;true,'debug'=&gt;0,'prop'=&gt;0,'method'=&gt;0,'mustlok'=&gt;0))<br />
+							array('LCRun3::v($cx, $in, array(\'id\'))', 'this.[id]') when input array(null,
+'id'),
+array('flags'=&gt;array('prop'=&gt;true,'spvar'=&gt;true,'debug'=&gt;0,'method'=&gt;0,'mustlok'=&gt;0,'standalone'=&gt;0))<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getExpression" id="_getExpression">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getExpression">#</a>
+			<code><a href="source-class-LightnCandy.html#1015-1036" title="Go to source code">getExpression</a>( <span>integer <var>$levels</var></span>, <span>boolean <var>$spvar</var></span>, <span>array&lt;string|integer&gt; <var>$var</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile().</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile().</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$levels</var></dt>
+						<dd><code>integer</code><br>$levels trace N levels top parent scope</dd>
+						<dt><var>$spvar</var></dt>
+						<dd><code>boolean</code><br>$spvar is the path start with @ or not</dd>
+						<dt><var>$var</var></dt>
+						<dd><code>array&lt;string|integer&gt;</code><br>$var variable parsed path</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>normalized expression for debug display<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'[a].[b]' when input 0, false, array('a', 'b')<br />
+							'@[root]' when input 0, true, array('root')<br />
+							'this' when input 0, false, null<br />
+							'this.[id]' when input 0, false, array(null, 'id')<br />
+							'@[root].[a].[b]' when input 0, true, array('root', 'a', 'b')<br />
+							'../../[a].[b]' when input 2, false, array('a', 'b')<br />
+							'../[a\'b]' when input 1, false, array('a\'b')<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="fixVariable" id="_fixVariable">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;integer,string&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_fixVariable">#</a>
+			<code><a href="source-class-LightnCandy.html#1038-1105" title="Go to source code">fixVariable</a>( <span>string <var>$v</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return array presentation for a variable
+name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return array presentation for a variable
+name</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$v</var></dt>
+						<dd><code>string</code><br>$v variable name to be fixed.</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context Current compile content.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;integer,string&gt;</code><br>Return variable name array<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							array('this') when input 'this', array('flags' =&gt; array('advar' =&gt; 0,
+'this' =&gt; 0))<br />
+							array(null) when input 'this', array('flags' =&gt; array('advar' =&gt; 0, 'this'
+=&gt; 1))<br />
+							array(1, null) when input '../', array('flags' =&gt; array('advar' =&gt; 0,
+'this' =&gt; 1, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent' =&gt; 0))<br />
+							array(1, null) when input '../.', array('flags' =&gt; array('advar' =&gt; 0,
+'this' =&gt; 1, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent' =&gt; 0))<br />
+							array(1, null) when input '../this', array('flags' =&gt; array('advar' =&gt; 0,
+'this' =&gt; 1, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent' =&gt; 0))<br />
+							array(1, 'a') when input '../a', array('flags' =&gt; array('advar' =&gt; 0,
+'this' =&gt; 1, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent' =&gt; 0))<br />
+							array(2, 'a', 'b') when input '../../a.b', array('flags' =&gt; array('advar'
+=&gt; 0, 'this' =&gt; 0, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent'
+=&gt; 0))<br />
+							array(2, '[a]', 'b') when input '../../[a].b', array('flags' =&gt; array('advar'
+=&gt; 0, 'this' =&gt; 0, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent'
+=&gt; 0))<br />
+							array(2, 'a', 'b') when input '../../[a].b', array('flags' =&gt; array('advar'
+=&gt; 1, 'this' =&gt; 0, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent'
+=&gt; 0))<br />
+							array('"a.b"') when input '"a.b"', array('flags' =&gt; array('advar' =&gt; 1,
+'this' =&gt; 0, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent' =&gt; 0))<br />
+							array(null, 'id') when input 'this.id', array('flags' =&gt; array('advar' =&gt;
+1, 'this' =&gt; 1, 'parent' =&gt; 1), 'usedFeature' =&gt; array('parent' =&gt;
+0))<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="parseTokenArgs" id="_parseTokenArgs">
+
+			<td class="attributes"><code>
+				 protected static
+				array&lt;boolean|array&gt;
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_parseTokenArgs">#</a>
+			<code><a href="source-class-LightnCandy.html#1107-1252" title="Go to source code">parseTokenArgs</a>( <span>array&lt;string&gt; <var>&amp; $token</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by scanFeatures() and compile(). Parse the token and
+return parsed result.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by scanFeatures() and compile(). Parse the token and
+return parsed result.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>array&lt;string&gt;</code><br>$token preg_match results</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array&lt;boolean|array&gt;</code><br>Return parsed result<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							array(false, array(array(null))) when input array(0,0,0,0,0,0,''), array('flags'
+=&gt; array('advar' =&gt; 0, 'this' =&gt; 1, 'namev' =&gt; 0, 'noesc' =&gt; 0))<br />
+							array(true, array(array(null))) when input array(0,0,0,'{{{',0,0,''),
+array('flags' =&gt; array('advar' =&gt; 0, 'this' =&gt; 1, 'namev' =&gt; 0,
+'noesc' =&gt; 0))<br />
+							array(true, array(array(null))) when input array(0,0,0,0,0,0,''), array('flags'
+=&gt; array('advar' =&gt; 0, 'this' =&gt; 1, 'namev' =&gt; 0, 'noesc' =&gt; 1))<br />
+							array(false, array(array('a'))) when input array(0,0,0,0,0,0,'a'), array('flags'
+=&gt; array('advar' =&gt; 0, 'this' =&gt; 1, 'namev' =&gt; 0, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), array('b'))) when input array(0,0,0,0,0,0,'a b'),
+array('flags' =&gt; array('advar' =&gt; 0, 'this' =&gt; 1, 'namev' =&gt; 0,
+'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), array('"b'), array('c"'))) when input
+array(0,0,0,0,0,0,'a "b c"'), array('flags' =&gt; array('advar' =&gt; 0, 'this'
+=&gt; 1, 'namev' =&gt; 0, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), array('"b c"'))) when input array(0,0,0,0,0,0,'a
+"b c"'), array('flags' =&gt; array('advar' =&gt; 1, 'this' =&gt; 1, 'namev'
+=&gt; 0, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), array('[b'), array('c]'))) when input
+array(0,0,0,0,0,0,'a [b c]'), array('flags' =&gt; array('advar' =&gt; 0, 'this'
+=&gt; 1, 'namev' =&gt; 0, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), array('[b'), array('c]'))) when input
+array(0,0,0,0,0,0,'a [b c]'), array('flags' =&gt; array('advar' =&gt; 0, 'this'
+=&gt; 1, 'namev' =&gt; 1, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), array('b c'))) when input array(0,0,0,0,0,0,'a [b
+c]'), array('flags' =&gt; array('advar' =&gt; 1, 'this' =&gt; 1, 'namev' =&gt;
+0, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), array('b c'))) when input array(0,0,0,0,0,0,'a [b
+c]'), array('flags' =&gt; array('advar' =&gt; 1, 'this' =&gt; 1, 'namev' =&gt;
+1, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), 'q' =&gt; array('b c'))) when input
+array(0,0,0,0,0,0,'a q=[b c]'), array('flags' =&gt; array('advar' =&gt; 1,
+'this' =&gt; 1, 'namev' =&gt; 1, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), array('q=[b c'))) when input array(0,0,0,0,0,0,'a
+[q=[b c]'), array('flags' =&gt; array('advar' =&gt; 1, 'this' =&gt; 1, 'namev'
+=&gt; 1, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), 'q' =&gt; array('[b'), array('c]'))) when input
+array(0,0,0,0,0,0,'a q=[b c]'), array('flags' =&gt; array('advar' =&gt; 0,
+'this' =&gt; 1, 'namev' =&gt; 1, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), 'q' =&gt; array('b'), array('c'))) when input
+array(0,0,0,0,0,0,'a [q]=b c'), array('flags' =&gt; array('advar' =&gt; 0,
+'this' =&gt; 1, 'namev' =&gt; 1, 'noesc' =&gt; 0))<br />
+							array(false, array(array('a'), 'q' =&gt; array('"b c"'))) when input
+array(0,0,0,0,0,0,'a q="b c"'), array('flags' =&gt; array('advar' =&gt; 1,
+'this' =&gt; 1, 'namev' =&gt; 1, 'noesc' =&gt; 0))<br />
+							array(false, array(array('(foo bar)'))) when input array(0,0,0,0,0,0,'(foo
+bar)'), array('flags' =&gt; array('advar' =&gt; 1, 'this' =&gt; 1, 'namev' =&gt;
+1, 'noesc' =&gt; 0))<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="tokenString" id="_tokenString">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_tokenString">#</a>
+			<code><a href="source-class-LightnCandy.html#1254-1267" title="Go to source code">tokenString</a>( <span>string[] <var>$token</var></span>, <span>integer <var>$remove</var> = <span class="php-num">2</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by scanFeatures(). return token string</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by scanFeatures(). return token string</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>string[]</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$remove</var></dt>
+						<dd><code>integer</code><br>$remove remove how many heading and ending token</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>Return whole token<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'b' when input array(0, 'a', 'b', 'c'), 1<br />
+							'c' when input array(0, 'a', 'b', 'c', 'd', 'e')<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validateStartEnd" id="_validateStartEnd">
+
+			<td class="attributes"><code>
+				 protected static
+				boolean|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validateStartEnd">#</a>
+			<code><a href="source-class-LightnCandy.html#1269-1292" title="Go to source code">validateStartEnd</a>( <span>string[] <var>$token</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by scanFeatures(). Validate start and and.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by scanFeatures(). Validate start and and.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>string[]</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean|null</code><br>Return true when invalid<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							null when input array_fill(0, 9, ''), array()<br />
+							null when input array_fill(0, 9, '}}'), array()<br />
+							true when input array_fill(0, 9, '{{{'), array()<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validateOperations" id="_validateOperations">
+
+			<td class="attributes"><code>
+				 protected static
+				boolean|integer|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validateOperations">#</a>
+			<code><a href="source-class-LightnCandy.html#1294-1381" title="Go to source code">validateOperations</a>( <span>string[] <var>$token</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>array&lt;array&gt; <var>$vars</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Collect handlebars usage information,
+detect template error.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Collect handlebars usage information,
+detect template error.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>string[]</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array&gt;</code><br>$vars parsed arguments list</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean|integer|null</code><br>Return true when invalid or detected<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							null when input array(0, 0, 0, 0, 0, ''), array(), array()<br />
+							2 when input array(0, 0, 0, 0, 0, '^', '...'), array('usedFeature' =&gt;
+array('isec' =&gt; 1), 'level' =&gt; 0), array(array('foo'))<br />
+							3 when input array(0, 0, 0, 0, 0, '!', '...'), array('usedFeature' =&gt;
+array('comment' =&gt; 2)), array()<br />
+							true when input array(0, 0, 0, 0, 0, '/'), array('stack' =&gt; array(1), 'level'
+=&gt; 1), array()<br />
+							4 when input array(0, 0, 0, 0, 0, '#', '...'), array('usedFeature' =&gt;
+array('sec' =&gt; 3), 'level' =&gt; 0), array(array('x'))<br />
+							5 when input array(0, 0, 0, 0, 0, '#', '...'), array('usedFeature' =&gt;
+array('if' =&gt; 4), 'level' =&gt; 0), array(array('if'))<br />
+							6 when input array(0, 0, 0, 0, 0, '#', '...'), array('usedFeature' =&gt;
+array('with' =&gt; 5), 'level' =&gt; 0, 'flags' =&gt; array('with' =&gt; 1)),
+array(array('with'))<br />
+							7 when input array(0, 0, 0, 0, 0, '#', '...'), array('usedFeature' =&gt;
+array('each' =&gt; 6), 'level' =&gt; 0), array(array('each'))<br />
+							8 when input array(0, 0, 0, 0, 0, '#', '...'), array('usedFeature' =&gt;
+array('unless' =&gt; 7), 'level' =&gt; 0), array(array('unless'))<br />
+							9 when input array(0, 0, 0, 0, 0, '#', '...'), array('blockhelpers' =&gt;
+array('abc' =&gt; ''), 'usedFeature' =&gt; array('bhelper' =&gt; 8), 'level'
+=&gt; 0), array(array('abc'))<br />
+							10 when input array(0, 0, 0, 0, 0, ' ', '...'), array('usedFeature' =&gt;
+array('delimiter' =&gt; 9), 'level' =&gt; 0), array()<br />
+							11 when input array(0, 0, 0, 0, 0, '#', '...'), array('hbhelpers' =&gt;
+array('abc' =&gt; ''), 'usedFeature' =&gt; array('hbhelper' =&gt; 10), 'level'
+=&gt; 0), array(array('abc'))<br />
+							true when input array(0, 0, 0, 0, 0, '&gt;', '...'), array('basedir' =&gt;
+array('.'), 'fileext' =&gt; array('.tmpl'), 'usedFeature' =&gt; array('unless'
+=&gt; 7, 'partial' =&gt; 7), 'level' =&gt; 0, 'flags' =&gt; array('skippartial'
+=&gt; 0)), array('test')<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="scanFeatures" id="_scanFeatures">
+
+			<td class="attributes"><code>
+				 protected static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_scanFeatures">#</a>
+			<code><a href="source-class-LightnCandy.html#1383-1441" title="Go to source code">scanFeatures</a>( <span>string[] <var>$token</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Collect handlebars usage information,
+detect template error.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Collect handlebars usage information,
+detect template error.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>string[]</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="noNamedArguments" id="_noNamedArguments">
+
+			<td class="attributes"><code>
+				 public static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_noNamedArguments">#</a>
+			<code><a href="source-class-LightnCandy.html#1443-1455" title="Go to source code">noNamedArguments</a>( <span>array&lt;string&gt; <var>$token</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>boolean <var>$named</var></span>, <span>string <var>$suggest</var> = <span class="php-quote">'!'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Show error message when named arguments
+appear without custom helper.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Show error message when named arguments
+appear without custom helper.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>array&lt;string&gt;</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$named</var></dt>
+						<dd><code>boolean</code><br>$named is named arguments</dd>
+						<dt><var>$suggest</var></dt>
+						<dd><code>string</code><br>$suggest extended hint for this no named argument error</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="handleMustacheSpacing" id="_handleMustacheSpacing">
+
+			<td class="attributes"><code>
+				 public static
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_handleMustacheSpacing">#</a>
+			<code><a href="source-class-LightnCandy.html#1457-1521" title="Go to source code">handleMustacheSpacing</a>( <span>array&lt;string&gt; <var>&amp; $token</var></span>, <span>array&lt;array|string|integer&gt; <var>$vars</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compileToken(). Modify $token when spacing rules
+matched.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compileToken(). Modify $token when spacing rules
+matched.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>array&lt;string&gt;</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$vars parsed arguments list</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string|null</code><br>Return compiled code segment for the token<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileToken" id="_compileToken">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileToken">#</a>
+			<code><a href="source-class-LightnCandy.html#1523-1562" title="Go to source code">compileToken</a>( <span>array&lt;string&gt; <var>&amp; $token</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars token.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>array&lt;string&gt;</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>Return compiled code segment for the token<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileSection" id="_compileSection">
+
+			<td class="attributes"><code>
+				 protected static
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileSection">#</a>
+			<code><a href="source-class-LightnCandy.html#1564-1620" title="Go to source code">compileSection</a>( <span>array&lt;string&gt; <var>&amp; $token</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>array&lt;array|string|integer&gt; <var>&amp; $vars</var></span>, <span>boolean <var>$named</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars section token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars section token.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>array&lt;string&gt;</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$vars parsed arguments list</dd>
+						<dt><var>$named</var></dt>
+						<dd><code>boolean</code><br>$named is named arguments or not</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string|null</code><br>Return compiled code segment for the token when the token is section<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileBlockCustomHelper" id="_compileBlockCustomHelper">
+
+			<td class="attributes"><code>
+				 protected static
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileBlockCustomHelper">#</a>
+			<code><a href="source-class-LightnCandy.html#1622-1645" title="Go to source code">compileBlockCustomHelper</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>array&lt;array|string|integer&gt; <var>$vars</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars block custom helper begin token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars block custom helper begin token.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$vars parsed arguments list</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string|null</code><br>Return compiled code segment for the token<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileBlockEnd" id="_compileBlockEnd">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileBlockEnd">#</a>
+			<code><a href="source-class-LightnCandy.html#1647-1697" title="Go to source code">compileBlockEnd</a>( <span>array&lt;string&gt; <var>&amp; $token</var></span>, <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>array&lt;array|string|integer&gt; <var>$vars</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars block end token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars block end token.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$token</var></dt>
+						<dd><code>array&lt;string&gt;</code><br>$token detected handlebars {{ }} token</dd>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$vars parsed arguments list</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>Return compiled code segment for the token<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileBlockBegin" id="_compileBlockBegin">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileBlockBegin">#</a>
+			<code><a href="source-class-LightnCandy.html#1699-1739" title="Go to source code">compileBlockBegin</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>array&lt;array|string|integer&gt; <var>$vars</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars block begin token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars block begin token.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$vars parsed arguments list</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>Return compiled code segment for the token<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileCustomHelper" id="_compileCustomHelper">
+
+			<td class="attributes"><code>
+				 protected static
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileCustomHelper">#</a>
+			<code><a href="source-class-LightnCandy.html#1741-1765" title="Go to source code">compileCustomHelper</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>array&lt;array|string|integer&gt; <var>&amp; $vars</var></span>, <span>boolean <var>$raw</var></span>, <span>boolean <var>$err</var> = <span class="php-keyword1">false</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars custom helper token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars custom helper token.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$vars parsed arguments list</dd>
+						<dt><var>$raw</var></dt>
+						<dd><code>boolean</code><br>$raw is this {{{ token or not</dd>
+						<dt><var>$err</var></dt>
+						<dd><code>boolean</code><br>$err should cause error when missing helper or not</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string|null</code><br>Return compiled code segment for the token when the token is custom helper<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileElse" id="_compileElse">
+
+			<td class="attributes"><code>
+				 protected static
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileElse">#</a>
+			<code><a href="source-class-LightnCandy.html#1767-1792" title="Go to source code">compileElse</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>array&lt;array|string|integer&gt; <var>&amp; $vars</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars else token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars else token.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$vars parsed arguments list</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string|null</code><br>Return compiled code segment for the token when the token is else<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="compileVariable" id="_compileVariable">
+
+			<td class="attributes"><code>
+				 protected static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_compileVariable">#</a>
+			<code><a href="source-class-LightnCandy.html#1794-1810" title="Go to source code">compileVariable</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>array&lt;array|string|integer&gt; <var>&amp; $vars</var></span>, <span>boolean <var>$raw</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars variable token.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Return compiled PHP code partial for a
+handlebars variable token.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current compile context</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$vars parsed arguments list</dd>
+						<dt><var>$raw</var></dt>
+						<dd><code>boolean</code><br>$raw is this {{{ token or not</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>Return compiled code segment for the token<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addUsageCount" id="_addUsageCount">
+
+			<td class="attributes"><code>
+				 protected static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addUsageCount">#</a>
+			<code><a href="source-class-LightnCandy.html#1812-1829" title="Go to source code">addUsageCount</a>( <span>array&lt;string,array|string|integer&gt; <var>&amp; $context</var></span>, <span>string <var>$category</var></span>, <span>string <var>$name</var></span>, <span>integer <var>$count</var> = <span class="php-num">1</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Internal method used by compile(). Add usage count to context</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Internal method used by compile(). Add usage count to context</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$context</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$context current context</dd>
+						<dt><var>$category</var></dt>
+						<dd><code>string</code><br>$category ctegory name, can be one of: 'var', 'helpers', 'blockhelpers'</dd>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name used name</dd>
+						<dt><var>$count</var></dt>
+						<dd><code>integer</code><br>$count increment</dd>
+					</dl></div>
+
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							1 when input array('usedCount' =&gt; array('test' =&gt; array())), 'test',
+'testname'<br />
+							3 when input array('usedCount' =&gt; array('test' =&gt; array('testname' =&gt;
+2))), 'test', 'testname'<br />
+							5 when input array('usedCount' =&gt; array('test' =&gt; array('testname' =&gt;
+2))), 'test', 'testname', 3<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+		<h2>Constants summary</h2>
+		<table class="summary table table-bordered table-striped" id="constants">
+		<tr data-order="FLAG_ERROR_LOG" id="FLAG_ERROR_LOG">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#26" title="Go to source code"><b>FLAG_ERROR_LOG</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">1</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_ERROR_LOG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_ERROR_EXCEPTION" id="FLAG_ERROR_EXCEPTION">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#27" title="Go to source code"><b>FLAG_ERROR_EXCEPTION</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">2</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_ERROR_EXCEPTION" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_ERROR_SKIPPARTIAL" id="FLAG_ERROR_SKIPPARTIAL">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#28" title="Go to source code"><b>FLAG_ERROR_SKIPPARTIAL</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">4194304</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_ERROR_SKIPPARTIAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_STANDALONE" id="FLAG_STANDALONE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#31" title="Go to source code"><b>FLAG_STANDALONE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">4</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_STANDALONE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_NOESCAPE" id="FLAG_NOESCAPE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#32" title="Go to source code"><b>FLAG_NOESCAPE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">67108864</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_NOESCAPE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_JSTRUE" id="FLAG_JSTRUE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#35" title="Go to source code"><b>FLAG_JSTRUE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">8</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_JSTRUE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_JSOBJECT" id="FLAG_JSOBJECT">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#36" title="Go to source code"><b>FLAG_JSOBJECT</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">16</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_JSOBJECT" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_THIS" id="FLAG_THIS">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#39" title="Go to source code"><b>FLAG_THIS</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">32</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_THIS" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_WITH" id="FLAG_WITH">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#40" title="Go to source code"><b>FLAG_WITH</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">64</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_WITH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_PARENT" id="FLAG_PARENT">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#41" title="Go to source code"><b>FLAG_PARENT</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">128</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_PARENT" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_JSQUOTE" id="FLAG_JSQUOTE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#42" title="Go to source code"><b>FLAG_JSQUOTE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">256</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_JSQUOTE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_ADVARNAME" id="FLAG_ADVARNAME">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#43" title="Go to source code"><b>FLAG_ADVARNAME</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">512</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_ADVARNAME" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_SPACECTL" id="FLAG_SPACECTL">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#44" title="Go to source code"><b>FLAG_SPACECTL</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">1024</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_SPACECTL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_NAMEDARG" id="FLAG_NAMEDARG">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#45" title="Go to source code"><b>FLAG_NAMEDARG</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">2048</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_NAMEDARG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_SPVARS" id="FLAG_SPVARS">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#46" title="Go to source code"><b>FLAG_SPVARS</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">4096</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_SPVARS" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_SLASH" id="FLAG_SLASH">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#47" title="Go to source code"><b>FLAG_SLASH</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">8388608</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_SLASH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_ELSE" id="FLAG_ELSE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#48" title="Go to source code"><b>FLAG_ELSE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">16777216</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_ELSE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_EXTHELPER" id="FLAG_EXTHELPER">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#51" title="Go to source code"><b>FLAG_EXTHELPER</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">8192</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_EXTHELPER" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_ECHO" id="FLAG_ECHO">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#52" title="Go to source code"><b>FLAG_ECHO</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">16384</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_ECHO" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_PROPERTY" id="FLAG_PROPERTY">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#53" title="Go to source code"><b>FLAG_PROPERTY</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">32768</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_PROPERTY" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_METHOD" id="FLAG_METHOD">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#54" title="Go to source code"><b>FLAG_METHOD</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">65536</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_METHOD" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_RUNTIMEPARTIAL" id="FLAG_RUNTIMEPARTIAL">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#55" title="Go to source code"><b>FLAG_RUNTIMEPARTIAL</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">1048576</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_RUNTIMEPARTIAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_MUSTACHESP" id="FLAG_MUSTACHESP">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#58" title="Go to source code"><b>FLAG_MUSTACHESP</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">131072</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_MUSTACHESP" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_MUSTACHELOOKUP" id="FLAG_MUSTACHELOOKUP">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#59" title="Go to source code"><b>FLAG_MUSTACHELOOKUP</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">262144</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_MUSTACHELOOKUP" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_MUSTACHEPAIN" id="FLAG_MUSTACHEPAIN">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#60" title="Go to source code"><b>FLAG_MUSTACHEPAIN</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">2097152</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_MUSTACHEPAIN" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_MUSTACHESEC" id="FLAG_MUSTACHESEC">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#61" title="Go to source code"><b>FLAG_MUSTACHESEC</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">33554432</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_MUSTACHESEC" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_RENDER_DEBUG" id="FLAG_RENDER_DEBUG">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#64" title="Go to source code"><b>FLAG_RENDER_DEBUG</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">524288</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_RENDER_DEBUG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_BESTPERFORMANCE" id="FLAG_BESTPERFORMANCE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#67" title="Go to source code"><b>FLAG_BESTPERFORMANCE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">16384</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_BESTPERFORMANCE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_JS" id="FLAG_JS">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#68" title="Go to source code"><b>FLAG_JS</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">24</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_JS" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_MUSTACHE" id="FLAG_MUSTACHE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#69" title="Go to source code"><b>FLAG_MUSTACHE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">40239104</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_MUSTACHE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_HANDLEBARS" id="FLAG_HANDLEBARS">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#70" title="Go to source code"><b>FLAG_HANDLEBARS</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">27402208</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_HANDLEBARS" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_HANDLEBARSJS" id="FLAG_HANDLEBARSJS">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#71" title="Go to source code"><b>FLAG_HANDLEBARSJS</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">27402232</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_HANDLEBARSJS" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FLAG_INSTANCE" id="FLAG_INSTANCE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#72" title="Go to source code"><b>FLAG_INSTANCE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">98304</span></code></td>
+			<td class="description"><div>
+				<a href="#FLAG_INSTANCE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="VARNAME_SEARCH" id="VARNAME_SEARCH">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#75" title="Go to source code"><b>VARNAME_SEARCH</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-quote">'/(\\[[^\\]]+\\]|[^\\[\\]\\.]+)/'</span></code></td>
+			<td class="description"><div>
+				<a href="#VARNAME_SEARCH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EXTENDED_COMMENT_SEARCH" id="EXTENDED_COMMENT_SEARCH">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#76" title="Go to source code"><b>EXTENDED_COMMENT_SEARCH</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-quote">'/{{!--.*?--}}/s'</span></code></td>
+			<td class="description"><div>
+				<a href="#EXTENDED_COMMENT_SEARCH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_LOTHER" id="POS_LOTHER">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#79" title="Go to source code"><b>POS_LOTHER</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">1</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_LOTHER" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_LSPACE" id="POS_LSPACE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#80" title="Go to source code"><b>POS_LSPACE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">2</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_LSPACE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_BEGINTAG" id="POS_BEGINTAG">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#81" title="Go to source code"><b>POS_BEGINTAG</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">3</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_BEGINTAG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_LSPACECTL" id="POS_LSPACECTL">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#82" title="Go to source code"><b>POS_LSPACECTL</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">4</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_LSPACECTL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_OP" id="POS_OP">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#83" title="Go to source code"><b>POS_OP</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">5</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_OP" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_INNERTAG" id="POS_INNERTAG">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#84" title="Go to source code"><b>POS_INNERTAG</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">6</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_INNERTAG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_RSPACECTL" id="POS_RSPACECTL">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#85" title="Go to source code"><b>POS_RSPACECTL</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">7</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_RSPACECTL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_ENDTAG" id="POS_ENDTAG">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#86" title="Go to source code"><b>POS_ENDTAG</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">8</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_ENDTAG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_RSPACE" id="POS_RSPACE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#87" title="Go to source code"><b>POS_RSPACE</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">9</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_RSPACE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="POS_ROTHER" id="POS_ROTHER">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LightnCandy.html#88" title="Go to source code"><b>POS_ROTHER</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">10</span></code></td>
+			<td class="description"><div>
+				<a href="#POS_ROTHER" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="lastContext" id="$lastContext">
+			<td class="attributes"><code>
+				protected static 
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-LightnCandy.html#90" title="Go to source code"><var>$lastContext</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$lastContext" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

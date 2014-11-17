@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class LCRun3</title>
+
+	<script type="text/javascript" src="resources/combined.js?1288419929"></script>
+	<script type="text/javascript" src="elementlist.js?4033175842"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Overview</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-LightnCandy.html" title="Summary of LightnCandy"><span>Package</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+						<li>
+							<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-LightnCandy.html">LightnCandy</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-LCRun3.html">LCRun3</a></li>
+				<li><a href="class-LightnCandy.html">LightnCandy</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class LCRun3</h1>
+
+
+	<div class="description">
+	
+<p>LightnCandy static class for compiled template runtime methods.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-LightnCandy.html">LightnCandy</a><br />
+
+				<b>Author:</b>
+				Zordius &lt;<a
+href="mailto:zordius&#64;yahoo-inc.com">zordius&#64;<!---->yahoo-inc.com</a>&gt;<br />
+		<b>Located at</b> <a href="source-class-LCRun3.html#1832-2477" title="Go to source code">lightncandy.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="debug" id="_debug">
+
+			<td class="attributes"><code>
+				 public static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_debug">#</a>
+			<code><a href="source-class-LCRun3.html#1842-1883" title="Go to source code">debug</a>( <span>string <var>$v</var></span>, <span>string <var>$f</var></span>, <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for output debug info.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for output debug info.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$v</var></dt>
+						<dd><code>string</code><br>$v expression</dd>
+						<dt><var>$f</var></dt>
+						<dd><code>string</code><br>$f runtime function name</dd>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+					</dl></div>
+
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'{{123}}' when input '123', 'miss', array('flags' =&gt; array('debug' =&gt;
+LCRun3::DEBUG_TAGS)), ''<br />
+							'<!--MISSED((-->{{#123}}<!--))--><!--SKIPPED--><!--MISSED((-->{{/123}}<!--))-->'
+when input '123', 'wi', array('flags' =&gt; array('debug' =&gt;
+LCRun3::DEBUG_TAGS_HTML)), false, false, function () {return 'A';}<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="miss" id="_miss">
+
+			<td class="attributes"><code>
+				 public static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_miss">#</a>
+			<code><a href="source-class-LCRun3.html#1885-1900" title="Go to source code">miss</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>string <var>$v</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for missing data error.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for missing data error.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$v</var></dt>
+						<dd><code>string</code><br>$v expression</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="v" id="_v">
+
+			<td class="attributes"><code>
+				 public static
+				null|string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_v">#</a>
+			<code><a href="source-class-LCRun3.html#1902-1951" title="Go to source code">v</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt; <var>$base</var></span>, <span>array&lt;string|integer&gt; <var>$path</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for variable lookup. It is slower and only be used
+for instance property or method detection.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for variable lookup. It is slower and only be used
+for instance property or method detection.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$base</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$base current variable context</dd>
+						<dt><var>$path</var></dt>
+						<dd><code>array&lt;string|integer&gt;</code><br>$path array of names for path</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>null|string</code><br>Return the value or null when not found<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							null when input array('scopes' =&gt; array(), 'flags' =&gt; array('prop' =&gt;
+0, 'method' =&gt; 0, 'mustlok' =&gt; 0)), 0, array('a', 'b')<br />
+							3 when input array('scopes' =&gt; array(), 'flags' =&gt; array('prop' =&gt; 0,
+'method' =&gt; 0), 'mustlok' =&gt; 0), array('a' =&gt; array('b' =&gt; 3)),
+array('a', 'b')<br />
+							null when input array('scopes' =&gt; array(), 'flags' =&gt; array('prop' =&gt;
+0, 'method' =&gt; 0, 'mustlok' =&gt; 0)), (Object) array('a' =&gt; array('b'
+=&gt; 3)), array('a', 'b')<br />
+							3 when input array('scopes' =&gt; array(), 'flags' =&gt; array('prop' =&gt; 1,
+'method' =&gt; 0, 'mustlok' =&gt; 0)), (Object) array('a' =&gt; array('b' =&gt;
+3)), array('a', 'b')<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="ifvar" id="_ifvar">
+
+			<td class="attributes"><code>
+				 public static
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_ifvar">#</a>
+			<code><a href="source-class-LCRun3.html#1953-1973" title="Go to source code">ifvar</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$v</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{#if var}}.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{#if var}}.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$v</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$v value to be tested</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>Return true when the value is not null nor false.<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							false when input array(), null<br />
+							false when input array(), 0<br />
+							false when input array(), false<br />
+							true when input array(), true<br />
+							true when input array(), 1<br />
+							false when input array(), ''<br />
+							false when input array(), array()<br />
+							true when input array(), array('')<br />
+							true when input array(), array(0)<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="ifv" id="_ifv">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_ifv">#</a>
+			<code><a href="source-class-LCRun3.html#1975-2007" title="Go to source code">ifv</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$v</var></span>, <span>array&lt;array|string|integer&gt; <var>$in</var></span>, <span><code><a href="class-Closure.html">Closure</a></code>|null <var>$truecb</var></span>, <span><code><a href="class-Closure.html">Closure</a></code>|null <var>$falsecb</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{#if var}} when {{../var}} used.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{#if var}} when {{../var}} used.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$v</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$v value to be tested</dd>
+						<dt><var>$in</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;</code><br>$in input data with current scope</dd>
+						<dt><var>$truecb</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code>|null</code><br>$truecb callback function when test result is true</dd>
+						<dt><var>$falsecb</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code>|null</code><br>$falsecb callback function when test result is false</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The rendered string of the section<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'' when input array('scopes' =&gt; array()), null, array(), null<br />
+							'' when input array('scopes' =&gt; array()), null, array(), function () {return
+'Y';}<br />
+							'Y' when input array('scopes' =&gt; array()), 1, array(), function () {return
+'Y';}<br />
+							'N' when input array('scopes' =&gt; array()), null, array(), function () {return
+'Y';}, function () {return 'N';}<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="unl" id="_unl">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_unl">#</a>
+			<code><a href="source-class-LCRun3.html#2009-2028" title="Go to source code">unl</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$var</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$in</var></span>, <span><code><a href="class-Closure.html">Closure</a></code> <var>$truecb</var></span>, <span><code><a href="class-Closure.html">Closure</a></code>|null <var>$falsecb</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{#unless var}} when {{../var}} used.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{#unless var}} when {{../var}} used.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$var</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$var value be tested</dd>
+						<dt><var>$in</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$in input data with current scope</dd>
+						<dt><var>$truecb</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$truecb callback function when test result is true</dd>
+						<dt><var>$falsecb</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code>|null</code><br>$falsecb callback function when test result is false</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>Return rendered string when the value is not null nor false.<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'' when input array('scopes' =&gt; array()), null, array(), null<br />
+							'Y' when input array('scopes' =&gt; array()), null, array(), function () {return
+'Y';}<br />
+							'' when input array('scopes' =&gt; array()), 1, array(), function () {return
+'Y';}<br />
+							'Y' when input array('scopes' =&gt; array()), null, array(), function () {return
+'Y';}, function () {return 'N';}<br />
+							'N' when input array('scopes' =&gt; array()), true, array(), function () {return
+'Y';}, function () {return 'N';}<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="isec" id="_isec">
+
+			<td class="attributes"><code>
+				 public static
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_isec">#</a>
+			<code><a href="source-class-LCRun3.html#2030-2047" title="Go to source code">isec</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$v</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{^var}} inverted section.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{^var}} inverted section.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$v</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$v value to be tested</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>Return true when the value is not null nor false.<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							true when input array(), null<br />
+							false when input array(), 0<br />
+							true when input array(), false<br />
+							false when input array(), 'false'<br />
+							true when input array(), array()<br />
+							false when input array(), array('1')<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="raw" id="_raw">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_raw">#</a>
+			<code><a href="source-class-LCRun3.html#2049-2099" title="Go to source code">raw</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$v</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{{var}}} .</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{{var}}} .</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$v</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$v value to be output</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The raw value of the specified variable<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							true when input array('flags' =&gt; array('jstrue' =&gt; 0)), true<br />
+							'true' when input array('flags' =&gt; array('jstrue' =&gt; 1)), true<br />
+							'' when input array('flags' =&gt; array('jstrue' =&gt; 0)), false<br />
+							'false' when input array('flags' =&gt; array('jstrue' =&gt; 1)), false<br />
+							'false' when input array('flags' =&gt; array('jstrue' =&gt; 1)), false, true<br />
+							'Array' when input array('flags' =&gt; array('jstrue' =&gt; 1, 'jsobj' =&gt;
+0)), array('a', 'b')<br />
+							'a,b' when input array('flags' =&gt; array('jstrue' =&gt; 1, 'jsobj' =&gt; 1)),
+array('a', 'b')<br />
+							'[object Object]' when input array('flags' =&gt; array('jstrue' =&gt; 1, 'jsobj'
+=&gt; 1)), array('a', 'c' =&gt; 'b')<br />
+							'[object Object]' when input array('flags' =&gt; array('jstrue' =&gt; 1, 'jsobj'
+=&gt; 1)), array('c' =&gt; 'b')<br />
+							'a,true' when input array('flags' =&gt; array('jstrue' =&gt; 1, 'jsobj' =&gt;
+1)), array('a', true)<br />
+							'a,1' when input array('flags' =&gt; array('jstrue' =&gt; 0, 'jsobj' =&gt; 1)),
+array('a',true)<br />
+							'a,' when input array('flags' =&gt; array('jstrue' =&gt; 0, 'jsobj' =&gt; 1)),
+array('a',false)<br />
+							'a,false' when input array('flags' =&gt; array('jstrue' =&gt; 1, 'jsobj' =&gt;
+1)), array('a',false)<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="enc" id="_enc">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_enc">#</a>
+			<code><a href="source-class-LCRun3.html#2101-2115" title="Go to source code">enc</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$var</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{var}} .</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{var}} .</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$var</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$var value to be htmlencoded</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The htmlencoded value of the specified variable<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'a' when input array(), 'a'<br />
+							'a&amp;b' when input array(), 'a&amp;b'<br />
+							'a'b' when input array(), 'a\'b'<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="encq" id="_encq">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_encq">#</a>
+			<code><a href="source-class-LCRun3.html#2117-2132" title="Go to source code">encq</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$var</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{var}} , and deal with single quote to same
+as handlebars.js .</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{var}} , and deal with single quote to same
+as handlebars.js .</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$var</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$var value to be htmlencoded</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The htmlencoded value of the specified variable<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'a' when input array(), 'a'<br />
+							'a&amp;b' when input array(), 'a&amp;b'<br />
+							'a'b' when input array(), 'a\'b'<br />
+							'`a'b' when input array(), '`a\'b'<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="sec" id="_sec">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_sec">#</a>
+			<code><a href="source-class-LCRun3.html#2134-2271" title="Go to source code">sec</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$v</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$in</var></span>, <span>boolean <var>$each</var></span>, <span><code><a href="class-Closure.html">Closure</a></code> <var>$cb</var></span>, <span><code><a href="class-Closure.html">Closure</a></code>|null <var>$inv</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{#var}} section.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{#var}} section.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$v</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$v value for the section</dd>
+						<dt><var>$in</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$in input data with current scope</dd>
+						<dt><var>$each</var></dt>
+						<dd><code>boolean</code><br>$each true when rendering #each</dd>
+						<dt><var>$cb</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$cb callback function to render child context</dd>
+						<dt><var>$inv</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code>|null</code><br>$inv callback function to render child context when {{else}}</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The rendered string of the section<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'' when input array('flags' =&gt; array('spvar' =&gt; 0)), false, false, false,
+function () {return 'A';}<br />
+							'' when input array('flags' =&gt; array('spvar' =&gt; 0)), null, null, false,
+function () {return 'A';}<br />
+							'A' when input array('flags' =&gt; array('spvar' =&gt; 0)), true, true, false,
+function () {return 'A';}<br />
+							'A' when input array('flags' =&gt; array('spvar' =&gt; 0)), 0, 0, false,
+function () {return 'A';}<br />
+							'-a=' when input array('flags' =&gt; array('spvar' =&gt; 0)), array('a'),
+array('a'), false, function ($c, $i) {return "-$i=";}<br />
+							'-a=-b=' when input array('flags' =&gt; array('spvar' =&gt; 0)), array('a','b'),
+array('a','b'), false, function ($c, $i) {return "-$i=";}<br />
+							'' when input array('flags' =&gt; array('spvar' =&gt; 0)), 'abc', 'abc', true,
+function ($c, $i) {return "-$i=";}<br />
+							'-b=' when input array('flags' =&gt; array('spvar' =&gt; 0, 'mustsec' =&gt; 0)),
+array('a' =&gt; 'b'), array('a' =&gt; 'b'), true, function ($c, $i) {return
+"-$i=";}<br />
+							'1' when input array('flags' =&gt; array('spvar' =&gt; 0)), 'b', 'b', false,
+function ($c, $i) {return count($i);}<br />
+							'1' when input array('flags' =&gt; array('spvar' =&gt; 0)), 1, 1, false,
+function ($c, $i) {return print_r($i, true);}<br />
+							'0' when input array('flags' =&gt; array('spvar' =&gt; 0)), 0, 0, false,
+function ($c, $i) {return print_r($i, true);}<br />
+							'{<a href="&quot;c&quot;}'">b</a> when input array('flags' =&gt; array('spvar'
+=&gt; 0, 'mustsec' =&gt; 0)), array('b' =&gt; 'c'), array('b' =&gt; 'c'), false,
+function ($c, $i) {return json_encode($i);}<br />
+							'inv' when input array('flags' =&gt; array('spvar' =&gt; 0)), array(), 0, true,
+function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'inv' when input array('flags' =&gt; array('spvar' =&gt; 0)), array(), 0, false,
+function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'inv' when input array('flags' =&gt; array('spvar' =&gt; 0)), false, 0, true,
+function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'inv' when input array('flags' =&gt; array('spvar' =&gt; 0)), false, 0, false,
+function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'inv' when input array('flags' =&gt; array('spvar' =&gt; 0)), '', 0, true,
+function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'cb' when input array('flags' =&gt; array('spvar' =&gt; 0)), '', 0, false,
+function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'inv' when input array('flags' =&gt; array('spvar' =&gt; 0)), 0, 0, true,
+function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'cb' when input array('flags' =&gt; array('spvar' =&gt; 0)), 0, 0, false,
+function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'inv' when input array('flags' =&gt; array('spvar' =&gt; 0)), new stdClass, 0,
+true, function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'cb' when input array('flags' =&gt; array('spvar' =&gt; 0)), new stdClass, 0,
+false, function ($c, $i) {return 'cb';}, function ($c, $i) {return 'inv';}<br />
+							'268' when input array('flags' =&gt; array('spvar' =&gt; 1)), array(1,3,4), 0,
+false, function ($c, $i) {return $i * 2;}<br />
+							'038' when input array('flags' =&gt; array('spvar' =&gt; 1),
+'sp_vars'=&gt;array()), array(1,3,'a'=&gt;4), 0, true, function ($c, $i) {return
+$i * $c['sp_vars']['index'];}<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="wi" id="_wi">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_wi">#</a>
+			<code><a href="source-class-LCRun3.html#2273-2297" title="Go to source code">wi</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$v</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$in</var></span>, <span><code><a href="class-Closure.html">Closure</a></code> <var>$cb</var></span>, <span><code><a href="class-Closure.html">Closure</a></code>|null <var>$inv</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{#with var}} .</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{#with var}} .</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$v</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$v value to be the new context</dd>
+						<dt><var>$in</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$in input data with current scope</dd>
+						<dt><var>$cb</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$cb callback function to render child context</dd>
+						<dt><var>$inv</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code>|null</code><br>$inv callback function to render child context when {{else}}</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The rendered string of the token<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'' when input array(), false, false, function () {return 'A';}<br />
+							'' when input array(), null, null, function () {return 'A';}<br />
+							'-Array=' when input array(), array('a'=&gt;'b'), array('a' =&gt; 'b'), function
+($c, $i) {return "-$i=";}<br />
+							'-b=' when input array(), 'b', array('a' =&gt; 'b'), function ($c, $i) {return
+"-$i=";}<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="p" id="_p">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_p">#</a>
+			<code><a href="source-class-LCRun3.html#2299-2311" title="Go to source code">p</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>string <var>$p</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$v</var></span>, <span>mixed <var>$sp</var> = <span class="php-quote">''</span></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for {{&gt; partial}} .</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for {{&gt; partial}} .</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$p</var></dt>
+						<dd><code>string</code><br>$p partial name</dd>
+						<dt><var>$v</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$v value to be the new context</dd>
+						<dt><var>$sp</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The rendered string of the partial<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="ch" id="_ch">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_ch">#</a>
+			<code><a href="source-class-LCRun3.html#2313-2330" title="Go to source code">ch</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>string <var>$ch</var></span>, <span>array&lt;array&gt; <var>$vars</var></span>, <span>string <var>$op</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for custom helpers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for custom helpers.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$ch</var></dt>
+						<dd><code>string</code><br>$ch the name of custom helper to be executed</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array&gt;</code><br>$vars variables for the helper</dd>
+						<dt><var>$op</var></dt>
+						<dd><code>string</code><br>$op the name of variable resolver. should be one of: 'raw', 'enc', or 'encq'.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The rendered string of the token<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'=-=' when input array('helpers' =&gt; array('a' =&gt; function ($i) {return
+"=$i[0]=";})), 'a', array(array('-'),array()), 'raw'<br />
+							'=&amp;=' when input array('helpers' =&gt; array('a' =&gt; function ($i) {return
+"=$i[0]=";})), 'a', array(array('&amp;'),array()), 'enc'<br />
+							'='=' when input array('helpers' =&gt; array('a' =&gt; function ($i) {return
+"=$i[0]=";})), 'a', array(array('\''),array()), 'encq'<br />
+							'=b=' when input array('helpers' =&gt; array('a' =&gt; function ($i,$j) {return
+"={$j['a']}=";})), 'a', array(array(),array('a' =&gt; 'b')), 'raw'<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="chret" id="_chret">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_chret">#</a>
+			<code><a href="source-class-LCRun3.html#2332-2365" title="Go to source code">chret</a>( <span>string|array&lt;string,array|string|integer&gt; <var>$ret</var></span>, <span>string <var>$op</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method to handle response of custom helpers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method to handle response of custom helpers.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$ret</var></dt>
+						<dd><code>string|array&lt;string,array|string|integer&gt;</code><br>$ret return value from custom helper</dd>
+						<dt><var>$op</var></dt>
+						<dd><code>string</code><br>$op the name of variable resolver. should be one of: 'raw', 'enc', or 'encq'.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The rendered string of the token<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'=&amp;=' when input '=&amp;=', 'raw'<br />
+							'=&amp;'=' when input '=&amp;\'=', 'enc'<br />
+							'=&amp;'=' when input '=&amp;\'=', 'encq'<br />
+							'=&amp;'=' when input array('=&amp;\'='), 'enc'<br />
+							'=&amp;'=' when input array('=&amp;\'='), 'encq'<br />
+							'=&amp;=' when input array('=&amp;=', false), 'enc'<br />
+							'=&amp;=' when input array('=&amp;=', false), 'raw'<br />
+							'=&amp;=' when input array('=&amp;=', 'raw'), 'enc'<br />
+							'=&amp;'=' when input array('=&amp;\'=', 'encq'), 'raw'<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="hbch" id="_hbch">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_hbch">#</a>
+			<code><a href="source-class-LCRun3.html#2367-2449" title="Go to source code">hbch</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>string <var>$ch</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$vars</var></span>, <span>string <var>$op</var></span>, <span>mixed <var>$cb</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$inv</var> = <span class="php-keyword1">false</span></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for Handlebars.js style custom helpers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for Handlebars.js style custom helpers.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$ch</var></dt>
+						<dd><code>string</code><br>$ch the name of custom helper to be executed</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$vars variables for the helper</dd>
+						<dt><var>$op</var></dt>
+						<dd><code>string</code><br>$op the name of variable resolver. should be one of: 'raw', 'enc', or 'encq'.</dd>
+						<dt><var>$cb</var></dt>
+						<dd></dd>
+						<dt><var>$inv</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The rendered string of the token<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="bch" id="_bch">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_bch">#</a>
+			<code><a href="source-class-LCRun3.html#2451-2476" title="Go to source code">bch</a>( <span>array&lt;string,array|string|integer&gt; <var>$cx</var></span>, <span>string <var>$ch</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$vars</var></span>, <span>array&lt;array|string|integer&gt;|string|integer|null <var>$in</var></span>, <span><code><a href="class-Closure.html">Closure</a></code> <var>$cb</var></span> )</code>
+
+			<div class="description short">
+				
+<p>LightnCandy runtime method for block custom helpers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>LightnCandy runtime method for block custom helpers.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cx</var></dt>
+						<dd><code>array&lt;string,array|string|integer&gt;</code><br>$cx render time context</dd>
+						<dt><var>$ch</var></dt>
+						<dd><code>string</code><br>$ch the name of custom helper to be executed</dd>
+						<dt><var>$vars</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$vars variables for the helper</dd>
+						<dt><var>$in</var></dt>
+						<dd><code>array&lt;array|string|integer&gt;|string|integer|null</code><br>$in input data with current scope</dd>
+						<dt><var>$cb</var></dt>
+						<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$cb callback function to render child context</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>The rendered string of the token<br />
+					</div>
+
+
+					<h4>Expect</h4>
+					<div class="list">
+							'4.2.3' when input array('blockhelpers' =&gt; array('a' =&gt; function ($cx)
+{return array($cx,2,3);})), 'a', array(0, 0), 4, function($cx, $i) {return
+implode('.', $i);}<br />
+							'2.6.5' when input array('blockhelpers' =&gt; array('a' =&gt; function ($cx,$in)
+{return array($cx,$in[0],5);})), 'a', array('6', 0), 2, function($cx, $i)
+{return implode('.', $i);}<br />
+							'' when input array('blockhelpers' =&gt; array('a' =&gt; function ($cx,$in)
+{})), 'a', array('6', 0), 2, function($cx, $i) {return implode('.', $i);}<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+		<h2>Constants summary</h2>
+		<table class="summary table table-bordered table-striped" id="constants">
+		<tr data-order="DEBUG_ERROR_LOG" id="DEBUG_ERROR_LOG">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LCRun3.html#1836" title="Go to source code"><b>DEBUG_ERROR_LOG</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">1</span></code></td>
+			<td class="description"><div>
+				<a href="#DEBUG_ERROR_LOG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="DEBUG_ERROR_EXCEPTION" id="DEBUG_ERROR_EXCEPTION">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LCRun3.html#1837" title="Go to source code"><b>DEBUG_ERROR_EXCEPTION</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">2</span></code></td>
+			<td class="description"><div>
+				<a href="#DEBUG_ERROR_EXCEPTION" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="DEBUG_TAGS" id="DEBUG_TAGS">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LCRun3.html#1838" title="Go to source code"><b>DEBUG_TAGS</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">4</span></code></td>
+			<td class="description"><div>
+				<a href="#DEBUG_TAGS" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="DEBUG_TAGS_ANSI" id="DEBUG_TAGS_ANSI">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LCRun3.html#1839" title="Go to source code"><b>DEBUG_TAGS_ANSI</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">12</span></code></td>
+			<td class="description"><div>
+				<a href="#DEBUG_TAGS_ANSI" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="DEBUG_TAGS_HTML" id="DEBUG_TAGS_HTML">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+					<a href="source-class-LCRun3.html#1840" title="Go to source code"><b>DEBUG_TAGS_HTML</b></a>
+			</code></td>
+			<td class="value"><code><span class="php-num">20</span></code></td>
+			<td class="description"><div>
+				<a href="#DEBUG_TAGS_HTML" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>
